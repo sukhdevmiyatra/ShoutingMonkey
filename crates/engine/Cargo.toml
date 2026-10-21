@@ -1,0 +1,30 @@
+[package]
+name = "engine"
+version.workspace = true
+edition.workspace = true
+description.workspace = true
+repository.workspace = true
+license.workspace = true
+authors.workspace = true
+
+[dependencies]
+tokio.workspace = true
+tokio-util.workspace = true
+encoding_rs.workspace = true
+chromiumoxide.workspace = true
+futures-util.workspace = true
+reqwest.workspace = true
+url.workspace = true
+percent-encoding.workspace = true
+regex.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+toml.workspace = true
+scraper.workspace = true
+quick-xml.workspace = true
+rusqlite.workspace = true
+tracing.workspace = true
+anyhow.workspace = true
+thiserror.workspace = true
+csv.workspace = true
+psl = "2.1.244"

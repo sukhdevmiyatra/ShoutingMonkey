@@ -1,0 +1,18 @@
+# Build output
+/target/
+/dist/
+
+# Crawl databases and exports produced while testing
+/out-*/
+/shout-out/
+/exports/
+*.db
+*.db-wal
+*.db-shm
+
+# Generated at build time into dist\
+/THIRD_PARTY_LICENSES.txt
+
+# Local settings
+*.toml.local
+shoutingmonkey.toml

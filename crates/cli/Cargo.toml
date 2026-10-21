@@ -1,0 +1,24 @@
+[package]
+name = "cli"
+version.workspace = true
+edition.workspace = true
+description.workspace = true
+repository.workspace = true
+license.workspace = true
+authors.workspace = true
+
+[[bin]]
+name = "shoutingmonkey-cli"
+path = "src/main.rs"
+
+[dependencies]
+engine = { path = "../engine" }
+tokio.workspace = true
+clap.workspace = true
+tracing-subscriber.workspace = true
+anyhow.workspace = true
+serde_json.workspace = true
+indicatif = "0.17"
+
+[build-dependencies]
+embed-resource = "3"

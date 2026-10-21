@@ -1,0 +1,35 @@
+[package]
+name = "gui"
+version.workspace = true
+edition.workspace = true
+description.workspace = true
+repository.workspace = true
+license.workspace = true
+authors.workspace = true
+
+[[bin]]
+name = "ShoutingMonkey"
+path = "src/main.rs"
+
+[dependencies]
+engine = { path = "../engine" }
+anyhow.workspace = true
+tokio.workspace = true
+serde_json.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
+rusqlite.workspace = true
+eframe = "0.37"
+rfd = "0.17"
+dirs = "6"
+chrono = { version = "0.4", default-features = false, features = ["clock"] }
+egui = "0.37"
+url.workspace = true
+serde.workspace = true
+toml.workspace = true
+
+[dev-dependencies]
+egui_kittest = { version = "0.37", features = ["eframe", "wgpu", "snapshot"] }
+
+[build-dependencies]
+embed-resource = "3"
