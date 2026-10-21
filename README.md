@@ -55,8 +55,7 @@ Every crawl is saved automatically in `Documents\ShoutingMonkey crawls` and can 
 - Follows links, canonicals, hreflang, redirects and meta refresh, the way search engines discover pages.
 - Respects robots.txt (or ignores it, or crawls and reports what it would block). Sites without robots.txt or a sitemap crawl normally.
 - Reads XML sitemaps and sitemap indexes, and finds orphan URLs that only the sitemap lists.
-- Treats `example.com` and `www.example.com` as one site, and picks the main address automatically whichever you type.
-- Optional **JavaScript rendering** with the Microsoft Edge or Google Chrome already installed on the PC, for React, Vue, Angular and Next.js sites. Reports links and text that only appear after JavaScript runs.
+- JavaScript rendering with the Microsoft Edge or Google Chrome already installed on the PC, for React, Vue, Angular and Next.js sites. Reports links and text that only appear after JavaScript runs.
 - **List mode:** check an exact list of URLs instead of crawling.
 - Include and exclude URL patterns, crawl depth and URL limits, speed limits, custom user-agents (Googlebot, Bingbot and more).
 
