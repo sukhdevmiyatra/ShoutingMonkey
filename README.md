@@ -26,6 +26,17 @@ The release also includes `shoutingmonkey-cli.exe` for scripts and CI. Windows m
 
 See the [check reference](docs/CHECKS.md) for the complete list. See the [user guide](docs/USER_GUIDE.md) for crawl settings, workflow, and exports.
 
+## Screenshots
+
+| | |
+|---|---|
+| ![Response Codes tab and URL details](docs/screenshots/response-codes.png) | ![SERP snippet preview](docs/screenshots/serp-snippet.png) |
+| Response codes, filters, and URL details | SERP snippet preview with pixel widths |
+| ![Crawl Compare](docs/screenshots/crawl-compare.png) | ![Configuration dialog](docs/screenshots/configuration.png) |
+| Crawl Compare shows issues and URLs added or removed | Crawl configuration for scope, limits, speed, rendering, and robots.txt |
+| ![Command palette](docs/screenshots/command-palette.png) | ![Dark mode](docs/screenshots/dark-mode.png) |
+| Command palette for fast navigation and actions | Dark theme |
+
 ## Command line
 
 ```bat
